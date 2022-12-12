@@ -1,6 +1,14 @@
 # micro-1-final-project
 ESP32 project for reading temperature using Siri.
 
+ 
+By 
+Team: Iced Out
+Alan Mercado
+Ryan Melendez
+Victor Hernandez
+
+
 Introduction
 
 The final project for the Microprocessors I - Fall 2022 course, done in the esp32 and Node-RED. The emphasis of this project is on having the user be able ask Siri for the temperature in the room where the ESP32 is. Siri will ask if one wants the temperature reading in Fahrenheit or Celsius. After that temperature is displayed in the user’s preferred unit.
