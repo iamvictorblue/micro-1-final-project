@@ -9,7 +9,7 @@ Our project uses Amazon's AWS services and a ESP32 that takes the temperature re
 
 General Architecture
 
-In our project, the ESP32 microcontroller is connected to a 2-pin thermistor. We wanted to also use a DHT22, but our professor said no. Our own version of analogRead was then implemented.
+In our project, the ESP32 microcontroller is connected to a 2-pin thermistor. Our own version of analogRead was then implemented.
 The ESP32 is placed in the room where it will be connected to the internet which will connect to a remote cloud computer that has an MQTT Broker protocol. The Broker is used to retrieve data and send data to the RESTl API, which will give the phone  access to the data used in Siri.
  
  
@@ -34,7 +34,7 @@ The cloud machine was created using Amazon AWS Services, where MQTT, Node js, No
 
 
 
-Setting up node-red
+node-red
 
 For starters, one must use a cloud service like AWS,  which allows us to create a machine on the cloud. Then, one must install Node-Red and create a SSH connection with a key to connect to the device of choice.
 Update server:
